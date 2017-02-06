@@ -1,6 +1,6 @@
 #Git files
-.gitignore
-.gitattributes
+.gitignore export-ignore
+.gitattributes export-ignore
 
 #Composer files
 vendor export-ignore
