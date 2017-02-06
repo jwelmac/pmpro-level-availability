@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit strict="false"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         bootstrap="tests/bootstrap.php">
+
+    <testsuites>
+        <testsuite name="Paid Memberships Pro - Membership Level Availability Test Suite">
+            <file>tests/pmpro-level-availabilityTest.php</file>
+            <file>tests/includes/mainTest.php</file>
+            <file>tests/includes/hooksTest.php</file>
+            <!-- <directory suffix="Test.php" phpVersion="5.3.2" phpVersionOperator=">=">tests/includes</directory> -->
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="false">
+            <directory suffix=".php">includes</directory>
+        </whitelist>
+    </filter>
+
+</phpunit>

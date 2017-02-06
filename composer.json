@@ -1,0 +1,30 @@
+{
+    "name": "jwelmac/pmpro-level-availability",
+    "description": "Paid Memberships Pro - Membership Level Availability WordPress plugin",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jermaine McFarlane",
+            "email": "j.mcfarlane.mbbs@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PMProLA": "includes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "PMProLA": "tests/"
+        }
+    },
+    "require": {},
+    "scripts": {
+      "test" : "vendor/bin/phpunit --verbose",
+      "test-dox" : "vendor/bin/phpunit --verbose --testdox",
+      "test-coverage" : "vendor/bin/phpunit --verbose --coverage-text --testdox"
+    }
+}

@@ -1,0 +1,12 @@
+#Git files
+.gitignore
+.gitattributes
+
+#Composer files
+vendor export-ignore
+composer.json export-ignore
+composer.lock export-ignore
+
+#Test Files
+phpunit.xml export-ignore
+tests/ export-ignore
